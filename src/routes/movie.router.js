@@ -7,13 +7,13 @@ routerMovie.route('/')
    .get(getAll)
    .post(create)
 
-routerMovie.route('/:id/actor')
+routerMovie.route('/:id/actors')
    .post(setActor)
 
-routerMovie.route('/:id/director')
+routerMovie.route('/:id/directors')
    .post(setDirector)
 
-routerMovie.route('/:id/genre')
+routerMovie.route('/:id/genres')
    .post(setGenre)
 
 routerMovie.route('/:id')
