@@ -2,7 +2,6 @@ const { getAll, create, getOne, remove, update, setActor, setDirector, setGenre 
 const express = require('express')
 
 const routerMovie = express.Router()
-
 routerMovie.route('/')
    .get(getAll)
    .post(create)

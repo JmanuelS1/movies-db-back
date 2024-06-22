@@ -18,6 +18,10 @@ const Movie = sequelize.define('movie', {
       type: DataTypes.INTEGER,
       allowNull: false
    },
+
+   //actor
+   //genre
+   //director
 })
 
 module.exports = Movie
